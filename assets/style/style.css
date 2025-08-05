@@ -535,6 +535,10 @@ nav.active {
     }
 }
 @media only screen and (max-width: 950px){
+    #itemReview .images img{
+        width: 100%;
+        height: 300px;
+    }
     #itemReview .images{
         height: auto;
     }
@@ -651,5 +655,6 @@ nav.active {
     }
 
 }
+
 
 

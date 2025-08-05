@@ -435,6 +435,9 @@ nav.active {
     margin-top:3rem;
 }
 @media only screen and (max-width: 1230px){
+    #itemReview{
+        width:900px;
+    }
     .bookaService{
         width: 90%;
     }
@@ -634,4 +637,5 @@ nav.active {
     footer .aboutCom img{
         width: 200px;
     }
+
 }

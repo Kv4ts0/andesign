@@ -535,6 +535,15 @@ nav.active {
     }
 }
 @media only screen and (max-width: 950px){
+    #itemReview .images{
+        height: auto;
+    }
+    #itemReview{
+        width:90%;
+    }
+    #itemReview .images div{
+        flex-direction: column;
+    }
     #firstS .header{
         text-align: center;
     }
@@ -642,4 +651,5 @@ nav.active {
     }
 
 }
+
 

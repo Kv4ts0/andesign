@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poiret+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+}
+/* Header */
+header {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background.jpg);
+}
+header div{
+    height: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+header div img{
+    width: 300px;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    padding: 0 5rem 3px 3px;
+}
+header ul li a{
+    font-family: "Poiret One", sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+header ul li a:hover{
+    font-weight: 900;
+}
+/* First Section */
+#firstS{
+    margin: 3rem auto;
+    position: relative;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+#firstS .header{
+    font-family: "EB Garamond", serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+#firstS .flexGrid .flexCards{
+    margin: 3rem auto;
+    width: 1200px;
+    gap: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#firstS .flexGrid .flexCards .columns{
+    background-color: #F3F3F3;
+    border-radius: 25px;
+    padding: 3rem 3rem;
+    width: 70%;
+    font-size: 20px;
+    display: flex;
+    gap:3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#firstS .flexGrid .flexCards .columns .stats{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 5rem;
+    align-items: flex-start;
+}
+#firstS .flexGrid .flexCards .columns .stats .stat1, 
+#firstS .flexGrid .flexCards .columns .stats .stat2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+span{
+    color: #F2A100;
+    font-size: 50px;
+    font-family: "Poiret One", sans-serif;
+}
+#firstS .flexGrid .flexCards .fourCards{
+    gap: 1rem;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards .card{
+    border-radius: 25px;
+    width: 190px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    height: 170px;
+    background-color: black;
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards .card p{
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(1) .card:nth-child(1){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(255, 0, 0, 0)), url(../images/grid1.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(1) .card:nth-child(2){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.253), rgba(255, 0, 0, 0)), url(../images/grid2.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(2) .card:nth-child(1){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.253), rgba(255, 0, 0, 0)), url(../images/grid3.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(2) .card:nth-child(2){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.253), rgba(255, 0, 0, 0)), url(../images/grid4.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(1) .card:nth-child(1):hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/grid1.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(1) .card:nth-child(2):hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/grid2.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(2) .card:nth-child(1):hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/grid3.png);
+}
+#firstS .flexGrid .flexCards .fourCards .twoCards:nth-child(2) .card:nth-child(2):hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/grid4.png);
+}
+#firstS .flexGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#firstS .submit_button{
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+/* Second Section */
+#secondS{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    gap: 6rem;
+}
+#secondS>img{
+    width: 350px;
+}
+#secondS .aboutUs{
+    border-radius: 25px;
+    padding: 3rem 3rem;
+    background-color: #F3F3F3;
+    gap: 3rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+#secondS .aboutUs>div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navActive{
+    font-weight: 900;
+}
+#thirdS{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem auto;
+}
+#thirdS .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#thirdS .header a{
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+#thirdS .projectCards a{
+    text-decoration: none;
+}
+#thirdS .projectCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#thirdS .projectCards img{
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+}
+footer{
+    padding: 2rem 0;
+    display: flex;
+    background-color: #F3F3F3;
+    justify-content: space-around;
+}
+footer .aboutCom{
+    gap: 1rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+}
+footer .navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+footer .navigation ul li{
+    list-style: none;
+}
+footer .navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+footer .social{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .social>div{
+    display: flex;
+}
+.bookaService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 3rem auto;
+    gap: 2rem;
+}
+.bookaService input,
+.bookaService textarea{
+    font-size: 20px;
+    font-family:  "Poiret One", sans-serif;
+    padding: 0 1rem;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+.bookaService select{
+    font-size: 20px;
+    padding: 0 1rem;
+    font-family:  "Poiret One", sans-serif;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: none;
+    width: 103%;
+    height: 50px;
+}
+.bookaService option{
+    border: none;
+}
+.bookaService textarea{
+    padding-top: 1rem;
+}
+.bookaService .black{
+    font-family: "EB Garamond", serif;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.bookaService a{
+    width: 100%;
+}
+#submit:hover{
+    background-color: #F3F3F3;
+    color: black;
+}
+#whiteSubmit:hover{
+    background-color: #F3F3F3;
+    color: black;
+}
+#itemReview{
+    width: 1200px;
+    margin: 16rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20px;
+}
+#itemReview .images{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#itemReview .images img{
+    width: 100%;
+    height: 100%;
+}
+#itemReview .images div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#itemReview .images div img{
+    width: 370px;
+}
+#itemReview #textElements{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+nav {
+    right: -100%;
+    transition: right 0.3s ease;
+}
+
+nav.active {
+    right: 0;
+}
+.clickable:hover {
+    transform: scale(1.05);
+}
+.openMenu, .closeMenu{
+    font-size: 2rem;
+    color: #0A2B45;
+    cursor: pointer;
+    display: none;
+}
+.fa{
+    margin-top:3rem;
+}
+@media only screen and (max-width: 1230px){
+    .bookaService{
+        width: 90%;
+    }
+    #firstS .flexGrid .flexCards{
+        width: 900px;
+    }
+    #firstS{
+        width: 900px;
+    }
+    #firstS .header{
+        margin: 0 auto;
+    }
+    #firstS a{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #firstS .flexGrid .flexCards .fourCards{
+        width: 40%;
+    }
+    #secondS{
+        width: 900px
+    }
+    #thirdS{
+        width: 900px;
+    }
+    #thirdS .projectCards img{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+.openMenu {
+        display: block;
+        position: absolute;
+        right: 40px;
+        color: black;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 999;
+        width: 70%;
+        height: 100vh;
+        background-color: #0A2B45;
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center horizontally */
+        justify-content: center;
+        /* Center vertically */
+        gap: 30px;
+        /* Space between items */
+        padding: 20px;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    nav.active {
+        right: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    header ul li{
+        padding: 0;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 60px;
+    }
+    .navActive{
+        font-weight: 400;
+    }
+    .closeMenu {
+        position: absolute;
+        z-index: 999999;
+        top: 20px;
+        right: 20px;
+        display: block;
+        background: none;
+        color: white;
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 950px){
+    #firstS .header{
+        text-align: center;
+    }
+    #firstS{
+        width: 100%;
+    }
+    #thirdS{
+        width: 100%;
+    }
+    #secondS{
+        width: 100%;
+    }
+    
+    #firstS .flexGrid .flexCards{
+        width: 90%;
+        flex-direction: column;
+    }
+    #firstS .flexGrid .flexCards .fourCards{
+        width: 80%;
+    }
+    #firstS .flexGrid .flexCards .fourCards .twoCards .card,
+    #firstS .flexGrid .flexCards .fourCards .twoCards{
+        width: 100%;
+    }
+    #secondS>img{
+        margin: 0 auto;
+        width: 50%;
+    }
+    #secondS{
+        flex-direction: column;
+    }
+    #secondS .aboutUs{
+        margin: 0 auto;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #firstS .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #firstS .flexGrid .flexCards .columns{
+        justify-content: center;
+        align-items: center;
+    }
+    #thirdS .projectCards{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        justify-content: center;
+    }
+    #thirdS .projectCards a{
+        width: 90%;
+        height: 300px;
+    }
+    #thirdS .projectCards img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    #thirdS .header{
+        margin: 0 auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+    footer{
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .aboutCom{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .navigation{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .social{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    header{
+        height: 400px;
+    }
+    header div{
+        justify-content: space-between;
+    }
+    header div img{
+        margin: 0 2rem;
+        width: 200px;
+    }
+    footer .aboutCom img{
+        width: 200px;
+    }
+}

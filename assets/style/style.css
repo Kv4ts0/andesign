@@ -438,6 +438,9 @@ nav.active {
     #itemReview{
         width:900px;
     }
+    #itemReview .images div img{
+        width: 250px;
+    }
     .bookaService{
         width: 90%;
     }
@@ -639,3 +642,4 @@ nav.active {
     }
 
 }
+

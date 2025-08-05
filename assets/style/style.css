@@ -535,6 +535,9 @@ nav.active {
     }
 }
 @media only screen and (max-width: 950px){
+    #itemReview{
+        margin: 2rem auto;
+    }
     #itemReview .images div img{
         width: 100%;
     }
@@ -658,6 +661,7 @@ nav.active {
     }
 
 }
+
 
 
 

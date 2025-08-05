@@ -535,6 +535,9 @@ nav.active {
     }
 }
 @media only screen and (max-width: 950px){
+    #itemReview .images div img{
+        width: 100%;
+    }
     #itemReview .images img{
         width: 100%;
         height: 300px;
@@ -655,6 +658,7 @@ nav.active {
     }
 
 }
+
 
 
 
